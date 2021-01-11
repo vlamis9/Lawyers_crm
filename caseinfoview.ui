@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>caseInfoView</class>
+ <widget class="QDialog" name="caseInfoView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="4">
+    <widget class="QLabel" name="label_12">
+     <property name="text">
+      <string>Оплата до</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="labelCategoryCl">
+     <property name="text">
+      <string>Категория клиента</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0" rowspan="2" colspan="3">
+    <widget class="QPlainTextEdit" name="textMainPoint"/>
+   </item>
+   <item row="17" column="1">
+    <widget class="QPushButton" name="buttonCancelCase">
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>Примечания</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Суть дела</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Участники дела</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="4">
+    <widget class="QLineEdit" name="lineContractSum"/>
+   </item>
+   <item row="17" column="0">
+    <widget class="QPushButton" name="buttonSaveCase">
+     <property name="text">
+      <string>Сохранить</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Клиент</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QLineEdit" name="lineContractNum"/>
+   </item>
+   <item row="9" column="3" rowspan="8" colspan="2">
+    <widget class="QPlainTextEdit" name="textNotes"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Новое дело</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Статус клиента</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="comboCategoryCase"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QComboBox" name="comboClientName"/>
+   </item>
+   <item row="1" column="4">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>Сумма договора</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="0" colspan="3">
+    <widget class="QPlainTextEdit" name="textCaseParts"/>
+   </item>
+   <item row="3" column="3">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>Номер договора</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0" colspan="3">
+    <widget class="QPlainTextEdit" name="textRulesOfLaw"/>
+   </item>
+   <item row="1" column="3">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Дата Договора</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QComboBox" name="comboClientStatus"/>
+   </item>
+   <item row="4" column="4">
+    <widget class="QLineEdit" name="linePayDate"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Категория дела</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="label_11">
+     <property name="text">
+      <string>Нормы права</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QDateEdit" name="dateCaseDate"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

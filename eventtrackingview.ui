@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>eventTrackingView</class>
+ <widget class="QDialog" name="eventTrackingView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>852</width>
+    <height>547</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Выберите дату для добавления события</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="6">
+    <widget class="customCalendarWidget" name="calendarWidget"/>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QLabel" name="labelHeaderEvents">
+     <property name="text">
+      <string>События текущего месяца</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="6">
+    <widget class="QTableView" name="eventsView"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="buttonAllEvents">
+     <property name="text">
+      <string>Все события</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="buttonToEventDate">
+     <property name="text">
+      <string>К дате события</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="buttonCurDate">
+     <property name="text">
+      <string>Соб. текущего мес.</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QPushButton" name="buttonSearchEvent">
+     <property name="text">
+      <string>Поиск</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="4">
+    <widget class="QLineEdit" name="editSearch"/>
+   </item>
+   <item row="4" column="5">
+    <widget class="QPushButton" name="buttonExit">
+     <property name="text">
+      <string>Выход</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>customCalendarWidget</class>
+   <extends>QCalendarWidget</extends>
+   <header>customcalendarwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
